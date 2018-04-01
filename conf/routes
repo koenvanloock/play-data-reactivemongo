@@ -1,0 +1,8 @@
+
+
+GET         /users/lastname        example.UserController.getByLastName()
+GET         /users                 example.UserController.getUsers(pageNr: Option[Int], pageSize: Option[Int])
+GET         /users/:id             example.UserController.getUser(id: String)
+POST        /users                 example.UserController.insertUser()
+POST        /roles                 example.UserController.insertRole()
+DELETE      /users                 example.UserController.drop()
